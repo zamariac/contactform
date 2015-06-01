@@ -1,0 +1,61 @@
+body  {
+	background:white;
+	width: 402px;
+	height:549px;
+	border: 40px black solid;
+	padding-top: 20px;
+	font-family: arial;
+	text-indent: 20px;
+}
+
+header {
+	font-family: helvetica;
+	padding-bottom: 10px;
+}
+
+label {
+	margin-left: 20px;
+	font-family: helvetica;
+
+}
+
+input {
+	margin-left: 20px;
+	border-left: black solid 5px;
+	height: 30px;
+	width: 350px;
+	font-size: 15px;
+
+
+}
+
+textarea{
+	margin-left: 20px;
+	height:100px;
+	width: 350px;
+	border-left: black solid 5px;
+	color: #AEA9A9;
+	font-size: 15px;
+	padding-top: 10px;
+ }
+
+ button{
+ 	margin-left: 20px;
+ 	background: black;
+ 	color:white;
+ 	height: 66px;
+ 	width: 144px;
+ 	border: black;
+ }
+
+
+
+
+
+/*input[type="checkbox"]{
+	display: inline-block;
+	font-family: arial;
+	font-size:12px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;*/
