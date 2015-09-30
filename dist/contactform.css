@@ -1,8 +1,15 @@
 body  {
-	background:white;
-	width: 402px;
+	background-color:black;
+	width: 100%;
+	height: 100%;
+	padding: 25px;
+}
+
+#white{
+	background-color: white;
+	width: 50%;
 	height:549px;
-	border: 40px black solid;
+	margin-left: 300px;
 	padding-top: 20px;
 	font-family: arial;
 	text-indent: 20px;
@@ -10,6 +17,7 @@ body  {
 
 header {
 	font-family: helvetica;
+	font-size: 20px;
 	padding-bottom: 10px;
 }
 
@@ -23,16 +31,16 @@ input {
 	margin-left: 20px;
 	border-left: black solid 5px;
 	height: 30px;
-	width: 350px;
+	width: 90%;
 	font-size: 15px;
-
-
+	margin-bottom: 7px;
+	margin-top: 1px;
 }
 
 textarea{
 	margin-left: 20px;
 	height:100px;
-	width: 350px;
+	width: 90%;
 	border-left: black solid 5px;
 	color: #AEA9A9;
 	font-size: 15px;
@@ -41,16 +49,20 @@ textarea{
 
  button{
  	margin-left: 20px;
- 	background: black;
+ 	background-color: black;
  	color:white;
  	height: 66px;
  	width: 144px;
  	border: black;
  }
 
+ button:hover{
+ 	background-color: #88C470;
+ }
 
 
 
+/*#88C470*/
 
 /*input[type="checkbox"]{
 	display: inline-block;
