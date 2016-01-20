@@ -3,27 +3,29 @@
 <head>
 	<title> contact form </title>
 	<link rel="stylesheet" href="contactform.css">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
 </head>
 <body> 
-	<section id="white">
+	<form id="form-box">
 		<header> <strong> Contact Us </strong> </header>
-		<label> Name <br> <input type="text" placeholder=" Sally Smith"> </br>
-		</label>
+		<label id="name"> Name <br> <input type="text" id="nameinput" placeholder=" Sally Smith"> </br> </label>
+		<p id="name-error"> </p>
 
-		<label> Email <br> <input type="text"
-	placeholder=" Ssmith@gmail.com"> </br>
-		</label>
+		<label id="email"> Email <br> <input type="text"  id="emailinput"  placeholder=" Ssmith@gmail.com"> </br> </label>
+		<p id="email-error"></p>
 
-		<label> Website <br> <input type="text"
-	placeholder=" http://mssmith.net"> </br>
-		</label>
+		<label id="web"> Website <br> <input type="text" id="webinput" placeholder=" http://mssmith.net"> </br> </label>
+		<p id="web-error"> </p>
+		<p id="http-error"> </p>
 
-		<section id= "Message"> Message <br>
-		<textarea> A friendly message.. </textarea>
+		<section id="message-box"> Message <br>
+		<p id="message-error"> </p>
+
+		<textarea id="text-box"> A friendly message.. </textarea>
 		</section>
 		<button> Submit </button>
-	</section>
+	</form>
 
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"> </script>
 <script type= "text/javascript" src="contactform.js"> </script>
